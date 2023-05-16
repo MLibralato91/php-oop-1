@@ -3,17 +3,17 @@ class Movie
 {
   public $id;
   public $title;
-  public $original_title;
+  public $type;
   public $nationality;
   public $date;
   public $vote;
   public $image;
 
 
-  public function __construct($title, $original_title, $nationality, $date, $vote, $image)
+  public function __construct($title, $type, $nationality, $date, $vote, $image)
   {
     $this->title = $title;
-    $this->original_title = $original_title;
+    $this->type = $type;
     $this->nationality = $nationality;
     $this->date = $date;
     $this->vote = $vote;
